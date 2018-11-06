@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import './App.css'
-import Navbar from '. /components/Navbar'
 
-class App extends Component {
+class Header extends Component {
   render() {
     return (
       <div className="App">
@@ -12,4 +10,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Header;
