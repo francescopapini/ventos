@@ -1,5 +1,5 @@
 'use strict';
-
+ 
 // dependencies
 var gulp = require('gulp');
 var sass = require('gulp-sass');
@@ -18,7 +18,7 @@ var SCSS_DEST = './src/assets/css';
 // Compile SCSS
 gulp.task('compile_scss', function(){
   gulp.src(SCSS_SRC)
-  .pipe(sass().on('error, sass.logError'))
+  .pipe(sass().on('error', sass.logError))
   .pipe(minifyCSS())
   .pipe(rename({ suffix: '.min'}))
   .pipe(changed(SCSS_DEST))
