@@ -5,7 +5,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var minifyCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
-var rename = require('rename');
+var rename = require('gulp-rename');
 var changed = require('gulp-change');
 
 //////////////
@@ -26,7 +26,7 @@ gulp.task('compile_scss', function(){
 });
 
 // Detect changes in SCSS
-gulp.tast('watch_scss', function(){
+gulp.task('watch_scss', function(){
   gulp.watch(SCSS_SRC, ['compile_scss']);
 });
 
