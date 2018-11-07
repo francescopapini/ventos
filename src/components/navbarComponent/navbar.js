@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Navbar extends Component {
   render() {
     return (
-      <header>
+      <nav>
         <div className="logo">
           Logo
         </div>
@@ -17,7 +17,7 @@ class Navbar extends Component {
           </ul>
         </nav>
 
-      </header>
+      </nav>
     );
   }
 }
