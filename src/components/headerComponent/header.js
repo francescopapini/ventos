@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
  
-class Navbar extends Component {
+class Header extends Component {
   render() {
     return (
-      <nav>
+      <header>
         <div className="logo">
           Logo
         </div>
@@ -17,9 +17,9 @@ class Navbar extends Component {
           </ul>
         </nav>
 
-      </nav>
+      </header>
     );
   }
 }
 
-export default Navbar;
+export default Header;
