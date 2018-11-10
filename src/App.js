@@ -9,6 +9,8 @@ import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
 import Information from './components/pages/information';
+import Gallery from './components/pages/gallery';
+import Bookings from './components/pages/bookings';
 
 class App extends Component {
   render() {
@@ -17,7 +19,9 @@ class App extends Component {
         <div className="App">
           <Header />
           <Route exact path='/' component={Homepage} />
-          <Route exact path='/Information' component={Information} />
+          <Route exact path='/information' component={Information} />
+          <Route exact path='/gallery' component={Gallery} />
+          <Route exact path='/bookings' component={Bookings} />
           <Footer />
         </div>
       </Router>
