@@ -31,9 +31,13 @@ class Footer extends Component {
           <div className="col-lg-3">
             <h6 className="text-uppercase font-weight-bold"><strong>Contacts</strong></h6>
             <ul>
-              <li><i className="fa fa-lihone mr-3"></i> + 01 234 567 88</li>
-              <li><i className="fa fa-lihone mr-3"></i> + 01 234 567 88</li>
-              <li><i className="fa fa-envelolie mr-3"></i> info@examlile.com</li>
+              <li><i className="fa fa-phone mr-3"></i> + 01 234 567 88</li>
+              <li><i className="fa fa-phone mr-3"></i> + 01 234 567 88</li>
+              <li><i className="fa fa-envelope mr-3"></i> info@examlile.com</li>
+              <li>
+                <i className="fa fa-facebook mr-4"></i>
+                <i className="fa fa-instagram white-text mr-lg-4"></i>
+              </li>
             </ul>
           </div>
           <div className="col-lg-3">
