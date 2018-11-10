@@ -9,11 +9,8 @@ class Footer extends Component {
           <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
           </div>
           <div className="col-md-6 col-lg-7 text-center text-md-right">
-            <a className="fb-ic ml-0"><i className="fa fa-facebook white-text mr-4"> </i></a>
-            <a className="tw-ic"><i className="fa fa-twitter white-text mr-4"> </i></a>
-            <a className="gplus-ic"><i className="fa fa-google-plus white-text mr-4"> </i></a>
-            <a className="li-ic"><i className="fa fa-linkedin white-text mr-4"> </i></a>
-            <a className="ins-ic"><i className="fa fa-instagram white-text mr-lg-4"> </i></a>
+            <i className="fa fa-facebook mr-4"></i>
+            <i className="fa fa-instagram white-text mr-lg-4"></i>
           </div>
         </div>
 
@@ -41,10 +38,10 @@ class Footer extends Component {
           </div>
           <div className="col-lg-3">
             <ul>
-              <li><Link to="/" className="nav-link">Home</Link></li>
-              <li><Link to="/information" className="nav-link">Information</Link></li>
-              <li><Link to="/gallery" className="nav-link">Gallery</Link></li>
-              <li><Link to="/bookings" className="nav-link">Bookings</Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/information">Information</Link></li>
+              <li><Link to="/gallery">Gallery</Link></li>
+              <li><Link to="/bookings">Bookings</Link></li>
           </ul>
           </div>
         </div>
