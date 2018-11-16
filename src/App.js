@@ -19,13 +19,11 @@ class App extends Component {
         <div className="App">
           <div className="container-fluid">
             <Header />
-            <div className="container">
-              <Route exact path='/' component={Homepage} />
-              <Route exact path='/information' component={Information} />
-              <Route exact path='/gallery' component={Gallery} />
-              <Route exact path='/bookings' component={Bookings} />
-            </div>
-            <Footer />
+            <Route exact path='/' component={Homepage} />
+            <Route exact path='/information' component={Information} />
+            <Route exact path='/gallery' component={Gallery} />
+            <Route exact path='/bookings' component={Bookings} />
+          <Footer />
           </div>
         </div>
       </Router>
