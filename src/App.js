@@ -17,12 +17,16 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Header />
-          <Route exact path='/' component={Homepage} />
-          <Route exact path='/information' component={Information} />
-          <Route exact path='/gallery' component={Gallery} />
-          <Route exact path='/bookings' component={Bookings} />
-          <Footer />
+          <div className="container-fluid">
+            <Header />
+            <div className="container">
+              <Route exact path='/' component={Homepage} />
+              <Route exact path='/information' component={Information} />
+              <Route exact path='/gallery' component={Gallery} />
+              <Route exact path='/bookings' component={Bookings} />
+            </div>
+            <Footer />
+          </div>
         </div>
       </Router>
     );

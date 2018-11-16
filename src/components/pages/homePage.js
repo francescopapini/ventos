@@ -4,12 +4,14 @@ import Carousel from '../../components/carousel';
 class Homepage extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div>
         <Carousel />
-        <div className="container">
-          <h1>HomePage Content</h1>
-          <p>Loremhas survived not only frinter took a galley of type and scramb. Lorem Ipsum has been thts containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including vers</p>
-        </div>
+        <h1>Pousada Ventos Do Cumbuco</h1>
+        <p>Located a short walk to Cumbuco, in the North of Brazil, Ventos Do Cumbuco
+           is the perfect place to spend a weekend on the beach or to do some kitesurfing.
+           Conveniently located within a short driver from Fortaleza, you could be on the 
+           beach in less than half hour.</p>
+        <p>Take a look at the Information page to know more about Cumbuco and the pousada</p>    
       </div>
     );
   }
