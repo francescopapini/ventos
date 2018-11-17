@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
- 
+import GoogleMap from '../../components/map';
+
 class Information extends Component {
   render() {
     return (
@@ -34,6 +35,11 @@ class Information extends Component {
             next to the sand dunes,
             link to see more pics in gallery
             </p>
+          </div>
+        </div>
+        <div className="row">  
+          <div className="col-lg-12">  
+            <GoogleMap />
           </div>
         </div>
       </div>
