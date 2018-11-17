@@ -1,27 +1,41 @@
-import React, { Component } from 'react';
-import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
+import React, { Component } from 'react'
 
-const mapStyles = {
-  width: '100%',
-  height: '500px',
-};
+const google = window.google;
 
-export class MapContainer extends Component {
+class GoogleMap extends Component {
+
+  componentDidMount() {
+    this.map = new google.maps.Map(this.refs.map, {
+      scrollwheel: false,
+      zoom: 15,
+      draggable: true,
+      mapTypeControl: false,
+      streetViewControl: false,
+      zoomControlOptions: {
+        position: google.maps.ControlPosition.TOP_LEFT,
+        style: google.maps.ZoomControlStyle.SMALL,
+      },
+      center: new google.maps.LatLng(-3.629100, -38.720654),
+    });
+
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(-3.6346305, -38.72027),
+        map: this.map,
+        title: 'We are here!'
+      });
+  }
+
   render() {
+    const mapStyle = {
+      height: '300px',
+      width: '100%',
+      marginBottom: '40px'
+    };
+
     return (
-      <Map
-        google={this.props.google}
-        zoom={14}
-        style={mapStyles}
-        initialCenter={{
-         lat: -1.2884,
-         lng: 36.8233
-        }}
-      />
+      <div ref="map" style={mapStyle}></div>
     );
   }
 }
 
-export default GoogleApiWrapper({
-  apiKey: 'YOUR_GOOGLE_API_KEY_GOES_HERE'
-})(MapContainer);
+export default GoogleMap;

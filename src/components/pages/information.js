@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import GoogleApiWrapper from '../../components/map';
+import GoogleMap from '../../components/map';
 
 class Information extends Component {
   render() {
@@ -39,7 +39,7 @@ class Information extends Component {
         </div>
         <div className="row">  
           <div className="col-lg-12">  
-            <GoogleApiWrapper />
+            <GoogleMap />
           </div>
         </div>
       </div>
