@@ -13,16 +13,16 @@ class GoogleMap extends Component {
       streetViewControl: false,
       zoomControlOptions: {
         position: google.maps.ControlPosition.TOP_LEFT,
-        style: google.maps.ZoomControlStyle.SMALL,
+        style: google.maps.ZoomControlStyle.LARGE,
       },
       center: new google.maps.LatLng(-3.629100, -38.720654),
     });
 
-    var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(-3.6346305, -38.72027),
-        map: this.map,
-        title: 'We are here!'
-      });
+    new google.maps.Marker({
+      position: new google.maps.LatLng(-3.6346305, -38.72027),
+      map: this.map,
+      title: 'We are here!'
+    });
   }
 
   render() {
