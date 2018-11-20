@@ -9,11 +9,18 @@ class Information extends Component {
         <div className="row py-5 align-items-center">
           <div className="col-lg-6">
             <h2>Cumbuco</h2>
-            <p>small village
-               fully equipped with shops, pharmacies, restaurants, bars and night life
-               ,short ride from fortaleza airport
-               ,close to fortaleza to spend a day there  
-            </p>
+            <p>Cumbuco is a small town situated on
+               the north-eastern coast of Brazil.</p>
+            <p>Its weather conditions make it one of the best place
+               in the world for Kite surfing.</p>
+            <p>Fully equipped with shops, pharmacies and markets, 
+               it has a quiet and sleepy vibe during the day but offers 
+               an enjoyable night life with a good selection of restaurants, 
+               bars and live music.</p>
+            <p>Its proximity to Fortaleza makes it an ideal 
+               location for a family weekend but also the perfect 
+               place to visit the city. It can be reached from 
+               Fortaleza airport in about 30 minutes.</p> 
           </div>
           <div className="col-lg-6">
             <img src={require("../../assets/images/landscape.jpg")} className="d-block w-100"/>
@@ -25,16 +32,17 @@ class Information extends Component {
           </div>
           <div className="col-lg-6">
             <h2>The House</h2>
-            <p>5 rooms each with bathroom,
-            2 main rooms with private balcony
-            large living room and kitchen,
-            pool with waterfall,
-            large garden with barbecue area,
-            short walk to beach,
-            short walk to town,
-            next to the sand dunes,
-            link to see more pics in gallery
-            </p>
+            <p>Ventos Do Cumbuco is the perfect place to enjoy a family weekend 
+               on the beach or a Kite Surf holiday.</p>
+            <p>Perfectly located just 2 minutes walk from the beach and next to 
+               the famous Cumbuco's sand dunes, it is just a short walk to town.</p>  
+            <p>The house boasts a double large living room, 
+               a fully equipped kitchen and 
+               5 double/triple bedrooms, each with en-suite bathroom, 
+               two of which with large private balcony.
+               In the ample garden you will be able to enjoy a private pool 
+               with waterfall and a large barbecue area.</p>
+            <p>Visit the gallery section to see more pictures!</p>
           </div>
         </div>
         <div className="row">  
