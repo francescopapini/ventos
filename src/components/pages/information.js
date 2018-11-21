@@ -36,10 +36,9 @@ class Information extends Component {
                on the beach or a Kite Surf holiday.</p>
             <p>Perfectly located just 2 minutes walk from the beach and next to 
                the famous Cumbuco's sand dunes, it is just a short walk to town.</p>  
-            <p>The house boasts a double large living room, 
-               a fully equipped kitchen and 
-               5 double/triple bedrooms, each with en-suite bathroom, 
-               two of which with large private balcony.
+            <p>The house boasts a double large living room with TV, 
+               a fully equipped kitchen and 5 double/triple bedrooms,
+               each with en-suite bathroom, two of which with large private balcony.
                In the ample garden you will be able to enjoy a private pool 
                with waterfall and a large barbecue area.</p>
             <p>Visit the gallery section to see more pictures!</p>
