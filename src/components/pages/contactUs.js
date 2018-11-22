@@ -11,10 +11,13 @@ class ContactUs extends Component {
           or fill the form below and we will get back to you shortly. 
         </p>
         <div className="row">
-          <div className="col-xs-12">
+          <div className="col-md-6">
+            <Form />  
+          </div>
+          <div className="col-md-6">
+            <p>Contact numbers here</p>  
           </div>
         </div>
-          <Form />  
       </div>
     );
   }
