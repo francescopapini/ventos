@@ -23,7 +23,7 @@ class Form extends Component {
           name="name" 
           placeholder="Your Name"
           value={ this.state.name }
-          onChange={ e => this.change(e) }
+          onChange={ this.change }
           className="form-control" 
         />
         <small className="form-text text-muted">*required</small>
@@ -32,7 +32,7 @@ class Form extends Component {
           name="email" 
           placeholder="Your Email"
           value={ this.state.email }
-          onChange={ e => this.change(e) }
+          onChange={ this.change }
           className="form-control" 
         />
         <small className="form-text text-muted">*required</small>
@@ -41,7 +41,7 @@ class Form extends Component {
           name="phone" 
           placeholder="Your Phone"
           value={ this.state.phone }
-          onChange={ e => this.change(e) }
+          onChange={ this.change }
           className="form-control" 
         />
         <label>Subject</label>
@@ -49,7 +49,7 @@ class Form extends Component {
           name="subject" 
           placeholder="Subject"
           value={ this.state.subject }
-          onChange={ e => this.change(e) }
+          onChange={ this.change }
           className="form-control" 
         />
         <label>Message</label>
@@ -57,7 +57,7 @@ class Form extends Component {
           name="message" 
           placeholder="Message"
           value={ this.state.message }
-          onChange={ e => this.change(e) }
+          onChange={ this.change }
           className="form-control" 
         />
       </div>
