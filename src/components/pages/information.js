@@ -23,12 +23,12 @@ class Information extends Component {
                Fortaleza airport in about 30 minutes.</p> 
           </div>
           <div className="col-lg-6">
-            <img src={require("../../assets/images/landscape.jpg")} className="d-block w-100"/>
+            <img src={require("../../assets/images/landscape.jpg")} alt="" className="d-block w-100"/>
           </div>
         </div>
         <div className="row py-5 align-items-center">
           <div className="col-lg-6">
-            <img src={require("../../assets/images/house_garden.jpg")} className="d-block w-100"/>
+            <img src={require("../../assets/images/house_garden.jpg")} alt="" className="d-block w-100"/>
           </div>
           <div className="col-lg-6">
             <h2>The House</h2>
@@ -41,7 +41,7 @@ class Information extends Component {
                each with en-suite bathroom, two of which with large private balcony.
                In the ample garden you will be able to enjoy a private pool 
                with waterfall and a large barbecue area.</p>
-            <p>Visit the gallery section to see more pictures!</p>
+            <p>Visit the gallery section for more pictures!</p>
           </div>
         </div>
         <div className="row">  
