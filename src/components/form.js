@@ -15,47 +15,51 @@ class Form extends Component {
     });
   };
 
+  onSubmit = () => {
+
+  }
+
+
   render() {
     return (
       <div className="form-group">
         <label>Your Name*</label>
         <input
           name="name" 
-          placeholder="Your Name"
           value={ this.state.name }
           onChange={ this.change }
           className="form-control" 
         />
         <small className="form-text text-muted">*required</small>
+        <br />
         <label>Your Email*</label>
         <input
           name="email" 
-          placeholder="Your Email"
           value={ this.state.email }
           onChange={ this.change }
           className="form-control" 
         />
         <small className="form-text text-muted">*required</small>
+        <br />
         <label>Your Phone</label>
         <input
           name="phone" 
-          placeholder="Your Phone"
           value={ this.state.phone }
           onChange={ this.change }
           className="form-control" 
         />
+        <br />
         <label>Subject</label>
         <input
           name="subject" 
-          placeholder="Subject"
           value={ this.state.subject }
           onChange={ this.change }
           className="form-control" 
         />
+        <br />
         <label>Message</label>
         <textarea
           name="message" 
-          placeholder="Message"
           value={ this.state.message }
           onChange={ this.change }
           className="form-control" 
