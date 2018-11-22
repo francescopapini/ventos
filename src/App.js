@@ -10,7 +10,7 @@ import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
 import Information from './components/pages/information';
 import Gallery from './components/pages/gallery';
-import Bookings from './components/pages/bookings';
+import ContactUs from './components/pages/contactUs';
 
 class App extends Component {
   render() {
@@ -22,7 +22,7 @@ class App extends Component {
             <Route exact path='/' component={Homepage} />
             <Route exact path='/information' component={Information} />
             <Route exact path='/gallery' component={Gallery} />
-            <Route exact path='/bookings' component={Bookings} />
+            <Route exact path='/bookings' component={ContactUs} />
           <Footer />
           </div>
         </div>

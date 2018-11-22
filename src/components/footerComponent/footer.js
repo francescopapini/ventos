@@ -20,24 +20,24 @@ class Footer extends Component {
               </ul>
               
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <h6 className="text-uppercase font-weight-bold"><strong>Contacts</strong></h6>
               <ul>
                 <li><i className="fa fa-phone mr-3"></i> + 01 234 567 88</li>
                 <li><i className="fa fa-phone mr-3"></i> + 01 234 567 88</li>
-                <li><i className="fa fa-envelope mr-3"></i> info@examlile.com</li>
+                <li><i className="fa fa-envelope mr-3"></i> renato.amantis@gmail.com</li>
                 <li>
                   <i className="fa fa-facebook mr-4"></i>
                   <i className="fa fa-instagram white-text mr-lg-4"></i>
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-2">
               <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/information">Information</Link></li>
                 <li><Link to="/gallery">Gallery</Link></li>
-                <li><Link to="/bookings">Bookings</Link></li>
+                <li><Link to="/bookings">Contact Us</Link></li>
             </ul>
             </div>
               <div className="footer-copyright pt-4 col-lg-12 text-center">Copyright © 2018 Ventos Do Cumbuco
