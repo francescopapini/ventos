@@ -16,7 +16,16 @@ class Form extends Component {
   };
 
   onSubmit = () => {
-
+    // add code to send email
+    // ()need some rest tool like axios
+    // clean the form
+    this.setState ({
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: ''
+    });
   }
 
 
@@ -64,6 +73,8 @@ class Form extends Component {
           onChange={ this.change }
           className="form-control" 
         />
+        <br />
+        <div className="btn btn-info" onClick={ ()=> this.onSubmit() }>Send</div>
       </div>
     );
   }
