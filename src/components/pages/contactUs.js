@@ -10,7 +10,11 @@ class ContactUs extends Component {
           To book your amazing holiday or for any questions please give us a call 
           or fill the form below and we will get back to you shortly. 
         </p>
-        <Form />  
+        <div className="row">
+          <div className="col-xs-12">
+          </div>
+        </div>
+          <Form />  
       </div>
     );
   }
