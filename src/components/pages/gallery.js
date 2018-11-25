@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Mosaic from '../../components/mosaic'
-import MosaicSelectMenu from '../../components/mosaic_select_menu'
+import Mosaic from '../../components/Mosaic'
+import MosaicSelectMenu from '../../components/MosaicSelectMenu'
  
 class Gallery extends Component {
   render() {

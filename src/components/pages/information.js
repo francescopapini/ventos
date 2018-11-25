@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import GoogleMap from '../../components/map';
+import GoogleMap from '../../components/Map';
 
 class Information extends Component {
   render() {

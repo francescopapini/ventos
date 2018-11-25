@@ -5,12 +5,12 @@ import {
 } from 'react-router-dom';
 import './assets/css/default.min.css';
 
-import Header from './components/headerComponent/header';
-import Footer from './components/footerComponent/footer';
-import Homepage from './components/pages/homePage';
-import Information from './components/pages/information';
-import Gallery from './components/pages/gallery';
-import ContactUs from './components/pages/contactUs';
+import Header from './components/HeaderComponent/Header';
+import Footer from './components/FooterComponent/Footer';
+import Homepage from './components/pages/HomePage';
+import Information from './components/pages/Information';
+import Gallery from './components/pages/Gallery';
+import ContactUs from './components/pages/ContactUs';
 
 class App extends Component {
   render() {
