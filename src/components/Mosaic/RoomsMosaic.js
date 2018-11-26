@@ -6,14 +6,14 @@ class RoomsMosaic extends Component {
   render() {
     const folder_path = "gallery/rooms_images/";
     const roomsImgs = [ "landscape.jpg",
-                      "landscape.jpg",
-                      "landscape.jpg",
-                      "landscape.jpg",
-                      "landscape.jpg",
-                      "landscape.jpg",
-                      "landscape.jpg",
-                      "landscape.jpg", 
-                      "landscape.jpg" ] 
+                        "landscape.jpg",
+                        "landscape.jpg",
+                        "landscape.jpg",
+                        "landscape.jpg",
+                        "landscape.jpg",
+                        "landscape.jpg",
+                        "landscape.jpg", 
+                        "landscape.jpg" ] 
     return (
       <div className="card-columns">
         { roomsImgs.map( i => {

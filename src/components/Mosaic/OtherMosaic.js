@@ -4,19 +4,19 @@ import MosaicCard  from './MosaicCard'
 class OtherMosaic extends Component {
 
   render() {
-    const folder_path = "gallery/house_images/";
-    const houseImgs = [ "test_image.jpg",
-                      "test_image.jpg",
-                      "test_image.jpg",
-                      "test_image.jpg",
-                      "test_image.jpg",
-                      "test_image.jpg",
-                      "test_image.jpg",
-                      "test_image.jpg",
-                      "test_image.jpg" ] 
+    const folder_path = "gallery/other_images/";
+    const otherImgs = [ "test_image.jpg",
+                        "test_image.jpg",
+                        "test_image.jpg",
+                        "test_image.jpg",
+                        "test_image.jpg",
+                        "test_image.jpg",
+                        "test_image.jpg",
+                        "test_image.jpg",
+                        "test_image.jpg" ] 
     return (
       <div className="card-columns">
-        { houseImgs.map( i => {
+        { otherImgs.map( i => {
             return(    
               <MosaicCard folder_path={folder_path} image_url={i} />
             );
@@ -27,4 +27,4 @@ class OtherMosaic extends Component {
   }
 }
 
-export default Mosaic;
+export default OtherMosaic;

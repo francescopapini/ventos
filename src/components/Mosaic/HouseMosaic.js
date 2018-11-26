@@ -6,14 +6,14 @@ class HouseMosaic extends Component {
   render() {
     const folder_path = "gallery/house_images/";
     const houseImgs = [ "house_garden.jpg",
-                      "house_garden.jpg",
-                      "house_garden.jpg",
-                      "house_garden.jpg",
-                      "house_garden.jpg",
-                      "house_garden.jpg",
-                      "house_garden.jpg",
-                      "house_garden.jpg",
-                      "house_garden.jpg" ] 
+                        "house_garden.jpg",
+                        "house_garden.jpg",
+                        "house_garden.jpg",
+                        "house_garden.jpg",
+                        "house_garden.jpg",
+                        "house_garden.jpg",
+                        "house_garden.jpg",
+                        "house_garden.jpg" ] 
     return (
       <div className="card-columns">
         { houseImgs.map( i => {

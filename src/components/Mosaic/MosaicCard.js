@@ -4,7 +4,7 @@ const MosaicCard = (props) => {
   return (
     <div className="card">
       <img 
-        src={require('../assets/images/' + props.folder_path + props.image_url)}
+        src={require('../../assets/images/' + props.folder_path + props.image_url)}
         alt=""
         className="card-img-top"
       />
