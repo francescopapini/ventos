@@ -1,41 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
+import MosaicCard  from './MosaicCard'
 
-class Mosaic extends Component {
-
-  render() {
-    return (
-      <div className="card-columns">
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        <div className="card">
-          <img src={require("../assets/images/house_garden.jpg")} alt="" className="card-img-top"/>
-        </div>
-        
-      </div>
+const Mosaic = (props) => {
+  props.images.map(i  => {
+    return(    
+      <MosaicCard folder_path={props.folder_path} image_url={i} />
     );
-  }
+  })      
 }
 
 export default Mosaic;
