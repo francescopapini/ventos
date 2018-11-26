@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Mosaic  from '../Mosaic'
 import MosaicCard  from './MosaicCard'
 
 class RoomsMosaic extends Component {
