@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Mosaic from '../../components/Mosaic'
-import MosaicSelectMenu from '../../components/MosaicSelectMenu'
+import HouseMosaic from '../Mosaic/HouseMosaic'
+import RoomsMosaic from '../Mosaic/RoomsMosaic'
+import MosaicSelectMenu from '../Mosaic/MosaicSelectMenu'
  
 class Gallery extends Component {
   render() {
@@ -8,7 +9,8 @@ class Gallery extends Component {
       <div className="container">
         <h1 className="text-center">Gallery</h1>
         <MosaicSelectMenu />
-        <Mosaic />
+        <HouseMosaic />
+        <RoomsMosaic />
       </div>
     );
   }

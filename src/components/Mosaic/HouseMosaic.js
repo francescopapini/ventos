@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Mosaic  from './Mosaic'
 import MosaicCard  from './MosaicCard'
 
 class HouseMosaic extends Component {
 
   render() {
-    var folder_path = "gallery/house_images/";
-    var houseImgs = [ "house_garden.jpg",
+    const folder_path = "gallery/house_images/";
+    const houseImgs = [ "house_garden.jpg",
+                      "house_garden.jpg",
                       "house_garden.jpg",
                       "house_garden.jpg",
                       "house_garden.jpg",
@@ -27,4 +27,4 @@ class HouseMosaic extends Component {
   }
 }
 
-export default Mosaic;
+export default HouseMosaic;
