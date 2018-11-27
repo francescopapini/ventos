@@ -21,7 +21,7 @@ class HouseMosaic extends Component {
               <MosaicCard folder_path={folder_path} image_url={i} />
             );
           })
-        };      
+        }      
       </div>
     );
   }
