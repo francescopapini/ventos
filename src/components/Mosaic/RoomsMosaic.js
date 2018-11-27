@@ -15,7 +15,7 @@ class RoomsMosaic extends Component {
                         "landscape.jpg", 
                         "landscape.jpg" ] 
     return (
-      <div className="card-columns">
+      <div className="card-columns hidden">
         { roomsImgs.map( i => {
             return(    
               <MosaicCard folder_path={folder_path} image_url={i} />

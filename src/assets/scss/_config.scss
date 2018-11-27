@@ -36,6 +36,9 @@ MIXINS
   transition:$e;
 }
 
+.hidden {
+  display: none;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
