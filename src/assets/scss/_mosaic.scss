@@ -6,14 +6,18 @@
 
 .select-menu{
     margin: 0;
+    margin-bottom: 15px;
 
     .mosaic-select-button {
-        background-color: $lightGreen;
+        background-color: $extraLightGrey;
         padding: 0;
-        color: white;
 
         &:hover {
-            background-color: $lightGreen;
+            background-color: $lightBlue;
+            color: white;
+            -webkit-transition: background-color 600ms linear;
+            -ms-transition: background-color 600ms linear;
+            transition: background-color 600ms linear;
         }
     }
 }
