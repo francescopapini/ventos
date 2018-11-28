@@ -1,0 +1,18 @@
+.card-columns {
+    .card {
+        margin: 2px !important;   
+    }
+}
+
+.select-menu{
+    margin: 0;
+
+    .mosaic-select-button {
+        background-color: $extraLightGrey;
+        padding: 0;
+
+        &:hover {
+            background-color: $lightGrey;
+        }
+    }
+}

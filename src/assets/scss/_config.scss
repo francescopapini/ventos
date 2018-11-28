@@ -4,7 +4,8 @@ VARIABLES
 
 $black: #010000;
 $white: #ffffff;
-$lightGrey: #e6e6e6;
+$extraLightGrey:#f8f9fa;
+$lightGrey: #bab1b1;
 $darkGrey: #333;
 $red: #ff1755;
 
@@ -36,6 +37,9 @@ MIXINS
   transition:$e;
 }
 
+.hidden {
+  display: none;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -57,6 +61,11 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
 }
 
 
