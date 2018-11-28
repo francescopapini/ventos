@@ -8,11 +8,12 @@
     margin: 0;
 
     .mosaic-select-button {
-        background-color: $extraLightGrey;
+        background-color: $lightGreen;
         padding: 0;
+        color: white;
 
         &:hover {
-            background-color: $lightGrey;
+            background-color: $lightGreen;
         }
     }
 }

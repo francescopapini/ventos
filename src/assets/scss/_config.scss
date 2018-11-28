@@ -6,19 +6,10 @@ $black: #010000;
 $white: #ffffff;
 $extraLightGrey:#f8f9fa;
 $lightGrey: #bab1b1;
+$midGrey: rgb(100,100,100);
 $darkGrey: #333;
 $red: #ff1755;
-
-/*
-FONTS
-
-regular 400
-regular 400 Italic
-bold 700
-bold 700 Italic
-
-*/
-
+$lightGreen: rgb(0, 202, 77);
 
 
 /*
@@ -42,10 +33,10 @@ MIXINS
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  color: $black;
-  font-weight: 400;
+  font-family: "Verdana";
+  font-size: 16px;
+  color: $midGrey;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -63,9 +54,10 @@ ul {
   padding-left: 0;
 }
 
-.no-gutter > [class*='col-'] {
-  padding-right:0;
-  padding-left:0;
+h1, h2 {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  color: black;
+  text-transform: uppercase;
 }
-
 
