@@ -15,13 +15,15 @@ class HouseMosaic extends Component {
                         "house_garden.jpg",
                         "house_garden.jpg" ] 
     return (
-      <div className="card-columns">
-        { houseImgs.map( i => {
-            return(    
-              <MosaicCard folder_path={folder_path} image_url={i} />
-            );
-          })
-        }      
+      <div className="card-deck">
+        <div className="card-columns">
+          { houseImgs.map( i => {
+              return(    
+                <MosaicCard folder_path={folder_path} image_url={i} />
+              );
+            })
+          }      
+        </div>
       </div>
     );
   }
