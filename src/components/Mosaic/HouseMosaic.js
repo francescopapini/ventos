@@ -12,8 +12,7 @@ class HouseMosaic extends Component {
                         "house_garden.jpg",
                         "house_garden.jpg",
                         "house_garden.jpg",
-                        "house_garden.jpg",
-                        "house_garden.jpg" ] 
+                        "house_garden.jpg"]
     return (
       <div className="card-deck">
         <div className="card-columns">
