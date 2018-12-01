@@ -21,4 +21,9 @@
             transition: background-color 600ms linear;
         }
     }
+    
+    .rooms-button{
+        border-right: 1px solid $lightGrey;
+        border-left: 1px solid $lightGrey;
+    }
 }
