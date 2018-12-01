@@ -21,7 +21,7 @@ class OtherMosaic extends Component {
               <MosaicCard folder_path={folder_path} image_url={i} key={i} />
             );
           })
-        };      
+        }      
       </div>
     );
   }
