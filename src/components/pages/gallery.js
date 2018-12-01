@@ -5,14 +5,15 @@ import OtherMosaic from '../Mosaic/OtherMosaic'
 import MosaicSelectMenu from '../Mosaic/MosaicSelectMenu'
  
 class Gallery extends Component {
+  
   render() {
     return (
       <div className="container">
         <h1 className="text-center">Gallery</h1>
-        <MosaicSelectMenu />
-        <HouseMosaic />
-        <RoomsMosaic />
-        <OtherMosaic />
+        < MosaicSelectMenu />
+        < HouseMosaic />
+        < RoomsMosaic />
+        < OtherMosaic />
       </div>
     );
   }

@@ -18,7 +18,7 @@ class OtherMosaic extends Component {
       <div className="card-columns hidden">
         { otherImgs.map( i => {
             return(    
-              <MosaicCard folder_path={folder_path} image_url={i} />
+              <MosaicCard folder_path={folder_path} image_url={i} key={i} />
             );
           })
         };      
