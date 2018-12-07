@@ -5,9 +5,9 @@ class MosaicSelectMenu extends Component {
     return (
       <div className="row text-center select-menu">
         <div className="col-lg-4 mosaic-select-button house-button">
-          <div className="btn">
+          <button className="btn" onClick={this.props.clickBtn}>
             The House
-          </div>
+          </button>
         </div>
         <div className="col-lg-4 mosaic-select-button rooms-button">
           <div className="btn">

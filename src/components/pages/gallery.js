@@ -5,13 +5,21 @@ import OtherMosaic from '../Mosaic/OtherMosaic'
 import MosaicSelectMenu from '../Mosaic/MosaicSelectMenu'
  
 class Gallery extends Component {
+  state = {
+    imgVisible: true
+  }
   
+  handleGalleryClick = () => {
+    this.setState({imgVisible: !this.state.imgVisible})
+    console.log('test')
+  }
+
   render() {
     return (
       <div className="container">
         <h1 className="text-center">Gallery</h1>
-        < MosaicSelectMenu />
-        < HouseMosaic />
+        < MosaicSelectMenu clickBtn={this.handleGalleryClick} />
+        < HouseMosaic toggleVisible={this.state.imgVisible}/>
         < RoomsMosaic />
         < OtherMosaic />
       </div>

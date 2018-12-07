@@ -3,7 +3,11 @@ import MosaicCard  from './MosaicCard'
 
 class HouseMosaic extends Component {
 
+
   render() {
+    console.log('igm ', this.props.toggleVisible)
+
+
     const folder_path = "gallery/house_images/";
     const houseImgs = [ "house1.jpeg",
                         "house2.jpeg",
@@ -15,7 +19,9 @@ class HouseMosaic extends Component {
                         "house8.jpeg",
                         "house9.jpeg" ]
     return (
-      <div className="card-deck">
+      
+      <div className={`${this.props.toggleVisible}`}>
+        {this.props.toggleVisible ? 'ciao' : 'addio'}
         <div className="card-columns">
           { houseImgs.map( i => {
               return(    
