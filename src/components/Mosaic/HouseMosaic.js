@@ -5,7 +5,7 @@ class HouseMosaic extends Component {
 
 
   render() {
-    console.log('igm ', this.props.toggleVisible)
+    console.log('img ', this.props.displayMosaic)
 
 
     const folder_path = "gallery/house_images/";
@@ -18,18 +18,17 @@ class HouseMosaic extends Component {
                         "house7.jpeg",
                         "house8.jpeg",
                         "house9.jpeg" ]
-    return (
-      
-      <div className={`${this.props.toggleVisible}`}>
-        {this.props.toggleVisible ? 'ciao' : 'addio'}
-        <div className="card-columns">
-          { houseImgs.map( i => {
-              return(    
-                <MosaicCard folder_path={folder_path} image_url={i} key={i} />
-              );
-            })
-          }      
-        </div>
+    return (         
+      <div>
+      {/* {this.props.toggleVisible ? 'ciao' : 'addio'} */}
+      <div className="card-columns">
+        { houseImgs.map( i => {
+            return(    
+              <MosaicCard folder_path={folder_path} image_url={i} key={i} />
+            );
+          })
+        }      
+      </div>
       </div>
     );
   }

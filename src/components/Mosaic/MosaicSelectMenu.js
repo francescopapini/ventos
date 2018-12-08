@@ -10,14 +10,18 @@ class MosaicSelectMenu extends Component {
           </button>
         </div>
         <div className="col-lg-4 mosaic-select-button rooms-button">
-          <div className="btn">
+          <button className="btn" onClick={this.props.clickBtn}>
+          {/* <div className="btn"> */}
             The Rooms
-          </div>
+          {/* </div> */}
+        </button>
         </div>
         <div className="col-lg-4 mosaic-select-button others-button">
-          <div className="btn">
+        <button className="btn" onClick={this.props.clickBtn}>
+          {/* <div className="btn"> */}
             Others
-          </div>
+          {/* </div> */}
+          </button>
         </div>
       </div>
     );
