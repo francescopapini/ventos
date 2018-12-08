@@ -5,23 +5,19 @@ class MosaicSelectMenu extends Component {
     return (
       <div className="row text-center select-menu">
         <div className="col-lg-4 mosaic-select-button house-button">
-          <button className="btn" onClick={this.props.clickBtn}>
+          <div className="btn" onClick={this.props.clickHouseBtn}>          
             The House
-          </button>
+            </div>
         </div>
         <div className="col-lg-4 mosaic-select-button rooms-button">
-          <button className="btn" onClick={this.props.clickBtn}>
-          {/* <div className="btn"> */}
+          <div className="btn" onClick={this.props.clickRoomsBtn}>
             The Rooms
-          {/* </div> */}
-        </button>
+          </div>
         </div>
         <div className="col-lg-4 mosaic-select-button others-button">
-        <button className="btn" onClick={this.props.clickBtn}>
-          {/* <div className="btn"> */}
+          <div className="btn" onClick={this.props.clickOthersBtn}>
             Others
-          {/* </div> */}
-          </button>
+          </div>
         </div>
       </div>
     );

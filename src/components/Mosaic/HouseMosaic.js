@@ -5,9 +5,6 @@ class HouseMosaic extends Component {
 
 
   render() {
-    console.log('img ', this.props.displayMosaic)
-
-
     const folder_path = "gallery/house_images/";
     const houseImgs = [ "house1.jpeg",
                         "house2.jpeg",
@@ -20,15 +17,14 @@ class HouseMosaic extends Component {
                         "house9.jpeg" ]
     return (         
       <div>
-      {/* {this.props.toggleVisible ? 'ciao' : 'addio'} */}
-      <div className="card-columns">
-        { houseImgs.map( i => {
-            return(    
-              <MosaicCard folder_path={folder_path} image_url={i} key={i} />
-            );
-          })
-        }      
-      </div>
+        <div className="card-columns">
+          { houseImgs.map( i => {
+              return(    
+                <MosaicCard folder_path={folder_path} image_url={i} key={i} />
+              );
+            })
+          }      
+        </div>
       </div>
     );
   }
