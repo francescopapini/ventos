@@ -9,7 +9,7 @@ class Footer extends Component {
           <div className="row py-5 align-items-center">
             <div className="col-lg-3">
               <p>Logo here</p>
-            </div>
+            </div> 
             <div className="col-lg-3">
               <h6 className="text-uppercase font-weight-bold"><strong>Address</strong></h6>
               <ul>
