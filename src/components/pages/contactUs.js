@@ -7,7 +7,7 @@ class ContactUs extends Component {
       <div className="container">
         <h1 className="text-center">Contact Us</h1>
         <p>
-          To book your amazing holiday or for any questions please give us a call 
+          To book your amazing holiday or for any question please give us a call 
           or fill the form below and we will get back to you shortly. 
         </p>
         <div className="row">

@@ -4,7 +4,6 @@ import {
   Route, 
 } from 'react-router-dom';
 import './assets/css/default.min.css';
-
 import Header from './components/HeaderComponent/Header';
 import Footer from './components/FooterComponent/Footer';
 import Homepage from './components/pages/HomePage';

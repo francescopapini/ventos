@@ -1,3 +1,13 @@
 .footer {
   background-color: $extraLightGrey;
+  margin-top: 25px;
+
+  h6 {
+    color: black;
+  }
+
+  .footer-copyright{
+    color: black;
+    font-weight: 900;
+  }
 }
