@@ -3,7 +3,7 @@ import HouseMosaic from '../Mosaic/HouseMosaic'
 import RoomsMosaic from '../Mosaic/RoomsMosaic'
 import OthersMosaic from '../Mosaic/OthersMosaic'
 import MosaicSelectMenu from '../Mosaic/MosaicSelectMenu'
- 
+
 class Gallery extends Component {
   state = {
     houseMosaicVisible: true,
@@ -12,21 +12,21 @@ class Gallery extends Component {
   }
 
   houseButtonClickHandler = () => {
-    this.setState({houseMosaicVisible: true})
-    this.setState({roomsMosaicVisible: false})
-    this.setState({othersMosaicVisible: false})
+    this.setState({ houseMosaicVisible: true })
+    this.setState({ roomsMosaicVisible: false })
+    this.setState({ othersMosaicVisible: false })
   }
 
   roomsButtonClickHandler = () => {
-    this.setState({houseMosaicVisible: false})
-    this.setState({roomsMosaicVisible: true})
-    this.setState({othersMosaicVisible: false})
+    this.setState({ houseMosaicVisible: false })
+    this.setState({ roomsMosaicVisible: true })
+    this.setState({ othersMosaicVisible: false })
   }
 
   othersButtonClickHandler = () => {
-    this.setState({houseMosaicVisible: false})
-    this.setState({roomsMosaicVisible: false})
-    this.setState({othersMosaicVisible: true})
+    this.setState({ houseMosaicVisible: false })
+    this.setState({ roomsMosaicVisible: false })
+    this.setState({ othersMosaicVisible: true })
   }
 
   // handleGalleryClick = (button_type) => {
@@ -65,4 +65,3 @@ class Gallery extends Component {
 }
 
 export default Gallery;
- 
