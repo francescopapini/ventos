@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class MosaicSelectMenu extends Component {
   render() {
