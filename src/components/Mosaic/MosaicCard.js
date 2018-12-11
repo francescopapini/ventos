@@ -1,6 +1,5 @@
 import React from 'react';
 
-const path = 
 const MosaicCard = props => (
   <div className="card">
     <img
