@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import HouseMosaic from '../Mosaic/HouseMosaic'
-import RoomsMosaic from '../Mosaic/RoomsMosaic'
-import OthersMosaic from '../Mosaic/OthersMosaic'
-import MosaicSelectMenu from '../Mosaic/MosaicSelectMenu'
+import React, { Component } from 'react';
+import HouseMosaic from '../Mosaic/HouseMosaic';
+import RoomsMosaic from '../Mosaic/RoomsMosaic';
+import OthersMosaic from '../Mosaic/OthersMosaic';
+import MosaicSelectMenu from '../Mosaic/MosaicSelectMenu';
 
 class Gallery extends Component {
   state = {
@@ -12,28 +12,29 @@ class Gallery extends Component {
   }
 
   houseButtonClickHandler = () => {
-    this.setState({ houseMosaicVisible: true })
-    this.setState({ roomsMosaicVisible: false })
-    this.setState({ othersMosaicVisible: false })
+    this.setState({ houseMosaicVisible: true });
+    this.setState({ roomsMosaicVisible: false });
+    this.setState({ othersMosaicVisible: false });
   }
 
   roomsButtonClickHandler = () => {
-    this.setState({ houseMosaicVisible: false })
-    this.setState({ roomsMosaicVisible: true })
-    this.setState({ othersMosaicVisible: false })
+    this.setState({ houseMosaicVisible: false });
+    this.setState({ roomsMosaicVisible: true });
+    this.setState({ othersMosaicVisible: false });
   }
 
   othersButtonClickHandler = () => {
-    this.setState({ houseMosaicVisible: false })
-    this.setState({ roomsMosaicVisible: false })
-    this.setState({ othersMosaicVisible: true })
+    this.setState({ houseMosaicVisible: false });
+    this.setState({ roomsMosaicVisible: false });
+    this.setState({ othersMosaicVisible: true });
   }
+
 
   render() {
     return (
       <div className="container">
         <h1 className="text-center">Gallery</h1>
-        < MosaicSelectMenu
+        <MosaicSelectMenu
           clickHouseBtn={this.houseButtonClickHandler}
           clickRoomsBtn={this.roomsButtonClickHandler}
           clickOthersBtn={this.othersButtonClickHandler}
