@@ -1,15 +1,16 @@
 {
   "extends": [
-    "airbnb",
-    "prettier"
+    "airbnb"
   ],
-  "plugins": [
-    "prettier"
-  ],
+  "parser": "babel-eslint",
   "rules": {
-    "prettier/prettier": [
-      "error"
-    ],
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "linebreak-style": "off",
+    "no-shadow": 0,
+    "react/jsx-one-expression-per-line": "off",
+    "strict": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
     "react/jsx-filename-extension": [
       1,
       {
@@ -19,5 +20,8 @@
         ]
       }
     ]
-  }
+  },
+  "plugins": [
+    "prettier"
+  ]
 }

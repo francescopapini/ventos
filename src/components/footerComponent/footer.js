@@ -24,12 +24,18 @@ const Footer = () => (
             <strong>Contacts</strong>
           </h6>
           <ul>
-            <li><i className="fa fa-phone mr-3"></i> + 01 234 567 88</li>
-            <li><i className="fa fa-phone mr-3"></i> + 01 234 567 88</li>
-            <li><i className="fa fa-envelope mr-3"></i> renato.amantis@gmail.com</li>
             <li>
-              <i className="fa fa-facebook mr-4"></i>
-              <i className="fa fa-instagram white-text mr-lg-4"></i>
+              <i className="fa fa-phone mr-3" /> + 01 234 567 88
+            </li>
+            <li>
+              <i className="fa fa-phone mr-3" /> + 01 234 567 88
+            </li>
+            <li>
+              <i className="fa fa-envelope mr-3" /> renato.amantis@gmail.com
+            </li>
+            <li>
+              <i className="fa fa-facebook mr-4" />
+              <i className="fa fa-instagram white-text mr-lg-4" />
             </li>
           </ul>
         </div>

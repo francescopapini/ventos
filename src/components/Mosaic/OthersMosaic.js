@@ -10,7 +10,7 @@ const otherImgs = [
   'other5.jpeg',
   'other6.jpeg',
   'other7.jpeg',
-  'other8.jpeg'
+  'other8.jpeg',
 ];
 
 const OtherMosaic = () => (

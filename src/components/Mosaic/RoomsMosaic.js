@@ -8,7 +8,7 @@ const roomsImgs = [
   'room3.jpeg',
   'room4.jpeg',
   'room5.jpeg',
-  'room6.jpeg'
+  'room6.jpeg',
 ];
 
 const RoomsMosaic = () => (

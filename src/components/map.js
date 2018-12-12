@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 const google = window.google;
 
 class GoogleMap extends Component {
-
   componentDidMount() {
     this.map = new google.maps.Map(this.refs.map, {
       scrollwheel: false,
@@ -15,13 +14,13 @@ class GoogleMap extends Component {
         position: google.maps.ControlPosition.TOP_LEFT,
         style: google.maps.ZoomControlStyle.LARGE,
       },
-      center: new google.maps.LatLng(-3.629100, -38.720654),
+      center: new google.maps.LatLng(-3.6291, -38.720654),
     });
 
     new google.maps.Marker({
       position: new google.maps.LatLng(-3.6346305, -38.72027),
       map: this.map,
-      title: 'We are here!'
+      title: 'We are here!',
     });
   }
 
@@ -29,12 +28,10 @@ class GoogleMap extends Component {
     const mapStyle = {
       height: '300px',
       width: '100%',
-      marginBottom: '40px'
+      marginBottom: '40px',
     };
 
-    return (
-      <div ref="map" style={mapStyle}></div>
-    );
+    return <div ref="map" style={mapStyle} />;
   }
 }
 
