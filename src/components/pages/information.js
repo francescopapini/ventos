@@ -2,6 +2,8 @@ import React from 'react';
 import { Fragment } from 'react';
 import GoogleMap from '../Map';
 
+const landscapeUrl = require('../../assets/images/landscape.jpg');
+
 const Information = () => (
   <Fragment>
     <div className="container">
@@ -26,7 +28,7 @@ const Information = () => (
         </div>
         <div className="col-lg-12">
           <img
-            src={require('../../assets/images/landscape.jpg')}
+            src={landscapeUrl}
             alt=""
             className="d-block w-100"
           />
