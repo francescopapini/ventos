@@ -7,7 +7,7 @@ import Homepage from './components/pages/HomePage';
 import Information from './components/pages/Information';
 import Gallery from './components/pages/Gallery';
 import ContactUs from './components/pages/ContactUs';
-import { fire } from './config/fbconfig';
+// import { fire } from './config/fbconfig';
 
 const App = () => (
   <Router>

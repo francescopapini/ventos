@@ -9,26 +9,25 @@ class Gallery extends Component {
     houseMosaicVisible: true,
     roomsMosaicVisible: false,
     othersMosaicVisible: false,
-  }
+  };
 
   houseButtonClickHandler = () => {
     this.setState({ houseMosaicVisible: true });
     this.setState({ roomsMosaicVisible: false });
     this.setState({ othersMosaicVisible: false });
-  }
+  };
 
   roomsButtonClickHandler = () => {
     this.setState({ houseMosaicVisible: false });
     this.setState({ roomsMosaicVisible: true });
     this.setState({ othersMosaicVisible: false });
-  }
+  };
 
   othersButtonClickHandler = () => {
     this.setState({ houseMosaicVisible: false });
     this.setState({ roomsMosaicVisible: false });
     this.setState({ othersMosaicVisible: true });
-  }
-
+  };
 
   render() {
     return (
