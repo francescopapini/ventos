@@ -34,8 +34,20 @@ const Footer = () => (
               <i className="fa fa-envelope mr-3" /> renato.amantis@gmail.com
             </li>
             <li>
-              <i className="fa fa-facebook mr-4" />
-              <i className="fa fa-instagram white-text mr-lg-4" />
+              <a
+                href="https://www.facebook.com/ventosdo.cumbuco"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-facebook mr-4" />
+              </a>
+              <a
+                href="https://www.instagram.com/ventosdocumbuco/?hl=en"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-instagram white-text mr-lg-4" />
+              </a>
             </li>
           </ul>
         </div>
