@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import GoogleMap from '../Map';
 
 const landscapeUrl = require('../../assets/images/landscape.jpg');
@@ -51,7 +52,9 @@ const Information = () => (
               balcony. In the ample garden you will be able to enjoy a private pool with waterfall
               and a large barbecue area.
             </p>
-            <p>Visit the gallery section for more pictures!</p>
+            <p>
+              Visit the <Link to="/gallery"> gallery section </Link> for more pictures!
+            </p>
           </div>
           <div className="col-lg-12">
             <img src={houseGardenUrl} alt="" className="d-block w-100" />
