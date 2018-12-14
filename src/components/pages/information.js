@@ -1,8 +1,8 @@
-import React from 'react';
-import { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import GoogleMap from '../Map';
 
 const landscapeUrl = require('../../assets/images/landscape.jpg');
+const houseGardenUrl = require('../../assets/images/house_garden.jpg');
 
 const Information = () => (
   <Fragment>
@@ -27,11 +27,7 @@ const Information = () => (
           </p>
         </div>
         <div className="col-lg-12">
-          <img
-            src={landscapeUrl}
-            alt=""
-            className="d-block w-100"
-          />
+          <img src={landscapeUrl} alt="" className="d-block w-100" />
         </div>
       </div>
     </div>
@@ -58,11 +54,7 @@ const Information = () => (
             <p>Visit the gallery section for more pictures!</p>
           </div>
           <div className="col-lg-12">
-            <img
-              src={require('../../assets/images/house_garden.jpg')}
-              alt=""
-              className="d-block w-100"
-            />
+            <img src={houseGardenUrl} alt="" className="d-block w-100" />
           </div>
         </div>
       </div>
