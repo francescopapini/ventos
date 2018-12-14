@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './assets/css/default.min.css';
-import Header from './components/HeaderComponent/Header';
-import Footer from './components/FooterComponent/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Homepage from './components/pages/HomePage';
 import Information from './components/pages/Information';
 import Gallery from './components/pages/Gallery';
