@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import '../node_modules/font-awesome/css/font-awesome.min.css';
+import { addLocaleData } from 'react-intl';
+import locale_en from 'react-intl/locale-data/en';
+import locale_de from 'react-intl/locale-data/es';
 import * as serviceWorker from './serviceWorker';
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+import App from './App';
+
+addLocaleData([...locale_en, ...locale_de]);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
