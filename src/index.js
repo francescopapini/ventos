@@ -2,18 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import { IntlProvider, addLocaleData } from 'react-intl';
-import locale_en from 'react-intl/locale-data/en';
-import locale_es from 'react-intl/locale-data/es';
-import messages_es from './translations/es.json';
-import messages_en from './translations/en.json';
+import localeEn from 'react-intl/locale-data/en';
+import localeEs from 'react-intl/locale-data/es';
+import messagesEn from './translations/en.json';
+import messagesEs from './translations/es.json';
+import messagesIt from './translations/it.json';
+import messagesBr from './translations/es.json';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 
-addLocaleData([...locale_en, ...locale_es]);
+addLocaleData([...localeEn, ...localeEs]);
 
 const messages = {
-  es: messages_es,
-  en: messages_en,
+  en: messagesEn,
+  es: messagesEs,
+  it: messagesIt,
+  br: messagesBr,
 };
 const language = navigator.language.split(/[-_]/)[0]; // language without region code
 
