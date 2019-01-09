@@ -22,7 +22,7 @@ const Header = () => (
         <ul className="navbar-nav ml-auto">
           <li className="flag-list">
             <div>
-              <button type="button" className="flag-button">
+              <button type="button" className="flag-button" onClick={this.test}>
                 <img
                   src={require('../../assets/images/flags/Brazil.png')}
                   alt=""

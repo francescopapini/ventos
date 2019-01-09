@@ -11,4 +11,7 @@
 .flag-button {
   background-color: transparent;
   border: none;
+  &:first-child {
+    padding-left: 0;
+  }
 }
