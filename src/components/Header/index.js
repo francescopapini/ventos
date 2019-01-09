@@ -7,6 +7,10 @@ const Header = () => (
       <Link to="/" className="navbar-brand">
         Logo
       </Link>
+      <img src={require('../../assets/images/flags/Brazil.png')} alt="" className="flag" />
+      <img src={require('../../assets/images/flags/USA.png')} alt="" className="flag" />
+      <img src={require('../../assets/images/flags/Spain.png')} alt="" className="flag" />
+      <img src={require('../../assets/images/flags/Italy.png')} alt="" className="flag" />
       <button
         className="navbar-toggler"
         type="button"
@@ -18,7 +22,6 @@ const Header = () => (
       >
         <span className="navbar-toggler-icon" />
       </button>
-
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
