@@ -7,10 +7,6 @@ const Header = () => (
       <Link to="/" className="navbar-brand">
         Logo
       </Link>
-      <img src={require('../../assets/images/flags/Brazil.png')} alt="" className="flag" />
-      <img src={require('../../assets/images/flags/USA.png')} alt="" className="flag" />
-      <img src={require('../../assets/images/flags/Spain.png')} alt="" className="flag" />
-      <img src={require('../../assets/images/flags/Italy.png')} alt="" className="flag" />
       <button
         className="navbar-toggler"
         type="button"
@@ -24,6 +20,26 @@ const Header = () => (
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
+          <li className="flag-list">
+            <div>
+              <button type="button" className="flag-button">
+                <img
+                  src={require('../../assets/images/flags/Brazil.png')}
+                  alt=""
+                  className="flag"
+                />
+              </button>
+              <button type="button" className="flag-button">
+                <img src={require('../../assets/images/flags/USA.png')} alt="" className="flag" />
+              </button>
+              <button type="button" className="flag-button">
+                <img src={require('../../assets/images/flags/Spain.png')} alt="" className="flag" />
+              </button>
+              <button type="button" className="flag-button">
+                <img src={require('../../assets/images/flags/Italy.png')} alt="" className="flag" />
+              </button>
+            </div>
+          </li>
           <li className="nav-item active">
             <Link to="/" className="nav-link">
               Home
